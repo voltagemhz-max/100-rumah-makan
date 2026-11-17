@@ -1,3 +1,6 @@
+const express = require('express');
+const app = express();
+
 const rp = n => 'Rp ' + Number(n).toLocaleString('id-ID');
 const F = (k, l, x = {}) => ({ k, l, ...x });
 
